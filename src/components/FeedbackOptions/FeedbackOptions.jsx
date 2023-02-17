@@ -1,18 +1,23 @@
-// import css from './FeedbackOptions.module.css'
-// import PropTypes from 'prop-types'
+import React from 'react'
+import css from './FeedbackOptions.module.css'
+import PropTypes from 'prop-types'
 
-// export const FeedbackOptions = () => {
-//     return (
-//         <div className={css.buttons_wrapper}>
-//             <button className={css.buttons}>Good</button>
-//             <button className={css.buttons}>Neutral</button>
-//             <button className={css.buttons}>Bad</button>
-//         </div>
-//     )
-// }
+class FeedbackOptions extends React.Component {
+    render() {
+        return (
+            <div className={css.buttons_wrapper}>
+                <button type='button' className={css.buttons}>Good</button>
+                <button type='button' className={css.buttons}>Neutral</button>
+                <button type='button' className={css.buttons}>Bad</button>
+            </div>
+        )
+    }
+}
 
-// FeedbackOptions.propTypes = {
-//     good: PropTypes.number.isRequired,
-//     neutral:PropTypes.number.isRequired,
-//     bad:PropTypes.number.isRequired,
-// }
+export default FeedbackOptions
+
+FeedbackOptions.propTypes = {
+    good: PropTypes.number.isRequired,
+    neutral:PropTypes.number.isRequired,
+    bad:PropTypes.number.isRequired,
+}
