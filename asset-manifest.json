@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "//neizmailovana.github.io/goit-react-hw-02-feedback/static/css/main.7acaea2f.css",
-    "main.js": "//neizmailovana.github.io/goit-react-hw-02-feedback/static/js/main.07d3183d.js",
+    "main.css": "//neizmailovana.github.io/goit-react-hw-02-feedback/static/css/main.bc7a63bb.css",
+    "main.js": "//neizmailovana.github.io/goit-react-hw-02-feedback/static/js/main.0137c736.js",
     "index.html": "//neizmailovana.github.io/goit-react-hw-02-feedback/index.html",
-    "main.7acaea2f.css.map": "//neizmailovana.github.io/goit-react-hw-02-feedback/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "//neizmailovana.github.io/goit-react-hw-02-feedback/static/js/main.07d3183d.js.map"
+    "main.bc7a63bb.css.map": "//neizmailovana.github.io/goit-react-hw-02-feedback/static/css/main.bc7a63bb.css.map",
+    "main.0137c736.js.map": "//neizmailovana.github.io/goit-react-hw-02-feedback/static/js/main.0137c736.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.bc7a63bb.css",
+    "static/js/main.0137c736.js"
   ]
 }
