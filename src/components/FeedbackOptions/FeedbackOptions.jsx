@@ -1,23 +1,26 @@
-import React from 'react'
-import './FeedbackOptions.module.css'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { ButtonStyled } from './FeedbackOptions.styled';
 
-class FeedbackOptions extends React.Component {
-    render() {
-        return (
-            <div className="buttons_wrapper">
-                <button type='button' className="buttons">Good</button>
-                <button type='button' className="buttons">Neutral</button>
-                <button type='button' className="buttons">Bad</button>
-            </div>
-        )
-    }
-}
+const FeedbackOptions = ({ options, onLeaveFeedback }) => {
+  return Object.keys(options).map(el => {
+    return (
+      <ButtonStyled
+        type="button"
+        onClick={() => {
+          onLeaveFeedback(el);
+        }}
+        key={el}
+      >
+        {el}
+      </ButtonStyled>
+    );
+  });
+};
 
 export default FeedbackOptions;
-
 FeedbackOptions.propTypes = {
-    good: PropTypes.number.isRequired,
-    neutral:PropTypes.number.isRequired,
-    bad:PropTypes.number.isRequired,
-}
+  options: PropTypes.object.isRequired,
+  onLeaveFeedback: PropTypes.func.isRequired,
+};
+
