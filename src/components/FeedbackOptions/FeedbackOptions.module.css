@@ -1,0 +1,18 @@
+
+   .button_styled {
+    padding: 20px 30px;
+    margin-right: 5px;
+    font-size: 24px;
+    border-radius: 5px;
+
+    color: black;
+    background-color: rgb(216, 154, 206);
+    
+  };
+
+  .button-styled:hover,
+  .button-styled:focus {
+      cursor: pointer;
+      color: black;
+      background-color: rgb(158, 76, 145);
+    }

@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ButtonStyled } from './FeedbackOptions.styled';
+
+import css from './FeedbackOptions.module.css';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return Object.keys(options).map(el => {
     return (
-      <ButtonStyled
+      <button className={css.button_styled}
         type="button"
         onClick={() => {
           onLeaveFeedback(el);
@@ -13,7 +14,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
         key={el}
       >
         {el}
-      </ButtonStyled>
+      </button>
     );
   });
 };
