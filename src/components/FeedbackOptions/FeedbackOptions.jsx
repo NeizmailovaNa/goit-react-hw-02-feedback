@@ -6,8 +6,8 @@ import css from './FeedbackOptions.module.css';
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return Object.keys(options).map(el => {
     return (
-      <button className={css.button_styled}
-       
+      <button className={css.button}
+        type="button"
         onClick={() => {
           onLeaveFeedback(el);
         }}
