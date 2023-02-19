@@ -1,20 +1,20 @@
 import React from 'react'
-import css from './FeedbackOptions.module.css'
+import './FeedbackOptions.module.css'
 import PropTypes from 'prop-types'
 
 class FeedbackOptions extends React.Component {
     render() {
         return (
-            <div className={css.buttons_wrapper}>
-                <button type='button' className={css.buttons}>Good</button>
-                <button type='button' className={css.buttons}>Neutral</button>
-                <button type='button' className={css.buttons}>Bad</button>
+            <div className="buttons_wrapper">
+                <button type='button' className="buttons">Good</button>
+                <button type='button' className="buttons">Neutral</button>
+                <button type='button' className="buttons">Bad</button>
             </div>
         )
     }
 }
 
-export default FeedbackOptions
+export default FeedbackOptions;
 
 FeedbackOptions.propTypes = {
     good: PropTypes.number.isRequired,
