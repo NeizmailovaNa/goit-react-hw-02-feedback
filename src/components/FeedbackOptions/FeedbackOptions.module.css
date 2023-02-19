@@ -1,5 +1,6 @@
 
-   button {
+   .button_styled {
+    display: inline-flex;
     padding: 20px 30px;
     margin-right: 10px;
     font-size: 24px;
@@ -11,8 +12,8 @@
     
   };
 
-  button:hover,
-  button:focus {
+  .button_styled:hover,
+  .button_styled:focus {
       cursor: pointer;
       color: black;
       background-color: rgb(158, 76, 145);
