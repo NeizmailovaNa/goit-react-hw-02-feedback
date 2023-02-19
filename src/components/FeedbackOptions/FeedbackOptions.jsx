@@ -6,7 +6,7 @@ import css from './FeedbackOptions.module.css';
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return Object.keys(options).map(el => {
     return (
-      <button className={css.button_styled}
+      <button_styled className={css.button_styled}
         type="button"
         onClick={() => {
           onLeaveFeedback(el);
@@ -14,7 +14,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
         key={el}
       >
         {el}
-      </button>
+      </button_styled>
     );
   });
 };
