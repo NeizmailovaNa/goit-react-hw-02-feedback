@@ -10,8 +10,8 @@
     
   };
 
-  .button-styled:hover,
-  .button-styled:focus {
+  .button_styled:hover,
+  .button_styled:focus {
       cursor: pointer;
       color: black;
       background-color: rgb(158, 76, 145);
