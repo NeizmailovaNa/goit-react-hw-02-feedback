@@ -1,6 +1,6 @@
 
    .button_styled {
-    display: inline-flex;
+    display: inline-block;
     padding: 20px 30px;
     margin-right: 10px;
     font-size: 24px;
