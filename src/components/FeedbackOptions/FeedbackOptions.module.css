@@ -1,6 +1,6 @@
 
-   .button_styled {
-    display: inline-block;
+   /* button {
+    display: block;
     padding: 20px 30px;
     margin-right: 10px;
     font-size: 24px;
@@ -12,9 +12,9 @@
     
   };
 
-  .button_styled:hover,
-  .button_styled:focus {
+  button:hover,
+  button:focus {
       cursor: pointer;
       color: black;
       background-color: rgb(158, 76, 145);
-    };
+    }; */

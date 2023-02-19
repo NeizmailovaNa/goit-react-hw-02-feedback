@@ -4,6 +4,7 @@ import Statistics from './Statistics';
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import Notification from './Notification';
 
+
 class App extends React.Component {
   state = {
     good: 0,
