@@ -25,10 +25,3 @@ button {
   background-color: rgb(216, 154, 206);
   
 };
-
-button:hover,
-button:focus {
-    cursor: pointer;
-    color: black;
-    background-color: rgb(158, 76, 145);
-  };
