@@ -6,15 +6,15 @@ import css from './FeedbackOptions.module.css';
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return Object.keys(options).map(el => {
     return (
-      <button_styled className={css.button_styled}
-        type="button"
+      <button className={css.button_styled}
+       
         onClick={() => {
           onLeaveFeedback(el);
         }}
         key={el}
       >
         {el}
-      </button_styled>
+      </button>
     );
   });
 };
